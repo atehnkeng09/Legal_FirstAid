@@ -1,0 +1,65 @@
+
+header{
+  padding: 20px;
+  background-color: #007BFF;
+  color: white;
+  height: 90px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+.logo a{
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left-header{
+  display: flex;
+}
+.left-header a{
+  padding: 10px;
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+}
+.left-header a::after{
+  content: '';
+  display: block;
+  width: 0;
+  height: 3px;
+  background-color: cyan;
+  transition: .65s;
+}
+.left-header a:hover::after{
+  width: 100%;
+}
+.left-header a:hover{
+  color: cyan;
+}
+
+/* RIGHT HEADER */
+.navbar-auth button {
+  margin-left: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #28A745; /* Green button */
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.navbar-auth .signup-button {
+  background-color: #FFC107; /* Accent yellow */
+}
+
+.navbar-auth button:hover {
+  opacity: 0.9;
+}
