@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 //Importing css contents
 import './App.css';
@@ -12,9 +13,11 @@ import Rights from "./pages/Rights";
 import Topics from "./pages/Topics";
 import Experts from "./pages/Experts";
 
+
 function App () {
   return (
-      <Router>
+      <>
+        <Router>
         <Header />
         <Routes>
           <Route path="/" element={<Home />} /> 
@@ -24,6 +27,10 @@ function App () {
         </Routes>
       </Router>
 
+      <Footer />
+      </>
+
+      
   )
 }
 

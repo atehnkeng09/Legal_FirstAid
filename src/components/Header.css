@@ -16,6 +16,11 @@ header{
   text-decoration: none;
   color: white;
 }
+@media screen and (max-width: 600px){
+  .logo a{
+    font-size: 14px;
+  }
+}
 .navbar{
   display: flex;
   justify-content: space-between;
@@ -27,8 +32,13 @@ header{
 .left-header a{
   padding: 10px;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 17px;
   color: white;
+}
+@media screen and (max-width: 600px){
+  .left-header a{
+    font-size: 14px;
+  }
 }
 .left-header a::after{
   content: '';
@@ -46,18 +56,39 @@ header{
 }
 
 /* RIGHT HEADER */
+.navbar-auth{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
 .navbar-auth button {
-  margin-left: 1rem;
+  padding: 7px 12px;
+  border: none;
+  margin: 3px;
+  border-radius: 4px;
+  background-color: #28A745;
+  color: white;
+  /* margin-left: 1rem;
   padding: 0.5rem 1rem;
   border: none;
-  background-color: #28A745; /* Green button */
+  background-color: #28A745;
   color: white;
   border-radius: 5px;
-  cursor: pointer;
+  cursor: pointer; */
+}
+@media screen and (max-width: 600px){
+  .navbar-auth button{
+    padding: 7px;
+    font-size: 12px;
+  }
 }
 
 .navbar-auth .signup-button {
-  background-color: #FFC107; /* Accent yellow */
+  background-color: #FFC107; 
+  /* padding: 7px;  */
+  
+  
 }
 
 .navbar-auth button:hover {
