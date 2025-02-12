@@ -24,11 +24,20 @@ a{
   /* align-items: center; */
   gap: 20px;
 }
+@media screen and (max-width: 600px) {
+  .footer-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
 .footer{
   padding: 50px 20px;
   background-color: rgb(31, 30, 30);
   color: white;
 }
+
 .social-icons{
   display: flex;
 }
@@ -37,10 +46,13 @@ a{
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  margin-top: 25px;
+  margin-top: 45px;
 }
 .disclaimer{
   font-style: italic;
-  font-size: 14px;
+  font-size: 12px;
   margin-top: 5px;
+}
+.footer-para p{
+  font-size: 12px;
 }

@@ -10,12 +10,13 @@ function Header () {
           <div className="logo">
             <Link to="/">Legal FirstAid</Link>
           </div>
-
-          <div className="left-header">
-            <Link to="/">Home</Link>
-            <Link to="/Rights">Know your rights</Link>
+          <div className="navbar">
+           <div className="left-header">
+           <Link to="/">Home</Link>
+            <Link to="/Rights">Know your Rights</Link>
             <Link to="/Topics">Legal Topics</Link>
             <Link to="/Experts">Contact Experts</Link>
+           </div>
           </div>
 
           <div className="navbar-auth">

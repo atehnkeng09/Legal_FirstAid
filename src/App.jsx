@@ -13,20 +13,39 @@ import Rights from "./pages/Rights";
 import Topics from "./pages/Topics";
 import Experts from "./pages/Experts";
 
+// importing categories
+import ConsumerRights from "./categories/ConsumerRights";
+import ArrestRights from "./categories/ArrestRights";
+import WorkplaceRights from "./categories/WorkplaceRights";
+import PropertyRights from "./categories/PropertyRights";
+
 
 function App () {
   return (
       <>
         <Router>
         <Header />
+
         <Routes>
           <Route path="/" element={<Home />} /> 
           <Route path="/Rights" element={ <Rights /> } /> 
           <Route path="/Topics" element={ <Topics /> } /> 
           <Route path="/Experts" element={ <Experts /> } /> 
+
+          {/* routes for categories */}
+          <Route path="/ConsumerRights" element={ <ConsumerRights />} />
+
+          <Route path="/ArrestRights" element={
+            <ArrestRights />} />
+
+          <Route path="/WorkplaceRights" element={<WorkplaceRights />} />
+
+          <Route path="/PropertyRights" element=
+          { <PropertyRights />} />
+
         </Routes>
       </Router>
-
+      
       <Footer />
       </>
 
