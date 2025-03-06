@@ -67,6 +67,9 @@ function Home () {
         <p className="firstPara">
           Empowering you with legal knowledge at your fingertips.
         </p>
+        <a href="/Rights">
+          <button className="home-btn">Read More</button>
+        </a>
       </div>
 
       <section className="about-contents">
@@ -93,7 +96,9 @@ function Home () {
             <p>
               Access simplified explanations of the Cameroon Penal Code.
             </p>
-            <button className="explore-button ">Explore</button>
+           <a href="/Rights">
+             <button className="explore-button ">Explore</button>
+           </a>
           </div>
 
           <div className="feature-card">
@@ -101,7 +106,9 @@ function Home () {
             <p>
               Explore legal topics organized for easy understanding.
             </p>
-            <button className="explore-button ">Explore</button>
+            <a href="/Topics">
+              <button className="explore-button ">Explore</button>
+            </a>
           </div>
 
           <div className="feature-card">
@@ -109,7 +116,9 @@ function Home () {
             <p>
             Get assistance and answers from legal professionals.
             </p>
-            <button  className="explore-button ">Explore</button>
+           <a href="/Experts">
+             <button  className="explore-button ">Explore</button>
+           </a>
           </div>
 
         </div>
@@ -139,7 +148,9 @@ function Home () {
         <p className="para-refer-experts">
           For detailed guidance, please contact one of our verified legal experts.
         </p>
-        <button>Contact Expert</button>
+        <a href="/Experts">
+          <button>Contact Expert</button>
+        </a>
        </div>
 
       </section>
@@ -153,8 +164,12 @@ function Home () {
             Take charge of your legal journey today! Whether you're navigating complex legal issues or simply seeking to understand your rights, our platform equips you with the tools, resources, and expert guidance you need. Don't wait—empower yourself now and make informed decisions with confidence.
           </p>
           <div className="cta-buttons">
-            <button className="get-started">Get Started</button>
-            <button className="cta-experts">Contact a Lawyer</button>
+           <a href="/Rights">
+              <button className="get-started">Get Started</button>
+           </a>
+            <a href="/Experts">
+             <button className="cta-experts">Contact a Lawyer</button>
+            </a>
         </div>
         
         </div>

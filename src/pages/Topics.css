@@ -1,0 +1,138 @@
+.topics-headers{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  background-image: url('public/images/pic5.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 280px 20px;
+  line-height: 1.4;
+  text-align: center;
+  word-spacing: 2px;
+}
+.topics-headers h1{
+  font-size: 50px;
+}
+.topics-headers h3{
+  font-size: 30px;
+ 
+}
+.add-hint {
+  padding: 50px 20px; 
+}
+
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+ 
+}
+
+/* Hint Message */
+.hint {
+  text-align: center;
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+/* Topics Container */
+.leg-topics {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #f4f4f4;
+ 
+}
+
+/* Individual Topic Item */
+.legal-topics {
+  background-color: white;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  border-left: 5px solid #007bff;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.legal-topics:hover {
+  background-color: #e3f2fd;
+  transform: scale(1.02);
+}
+
+/* Topic Title */
+.topic-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #007bff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topic-title:hover {
+  color: #0056b3;
+}
+
+/* Description */
+.description {
+  font-size: 14px;
+  color: #555;
+  margin-top: 5px;
+}
+
+/* Steps List */
+.topics-steps {
+  list-style-type: none;
+  padding-left: 15px;
+  margin-top: 10px;
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 0.5s ease-in-out, max-height 0.5s ease-in-out;
+}
+
+.legal-topics.open .topics-steps {
+  opacity: 1;
+  max-height: 500px;
+}
+
+.topics-steps li {
+  font-size: 14px;
+  padding: 5px 0;
+  border-left: 3px solid #007bff;
+  padding-left: 10px;
+  margin-top: 5px;
+  background: #f9f9f9;
+  transition: transform 0.3s ease-in-out;
+}
+
+.topics-steps li:hover {
+  transform: translateX(5px);
+}
+
+/* Contact Expert Button */
+.contact-expert {
+  display: block;
+  width: 200px;
+  margin: 20px auto;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.contact-expert:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}

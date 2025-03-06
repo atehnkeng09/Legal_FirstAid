@@ -1,6 +1,7 @@
 *{
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 .section-office-header{
   padding: 250px;
@@ -16,15 +17,20 @@
   background-repeat: no-repeat;
   width: 100%;
   max-height: auto;
-  color: rgba(188, 217, 247, 0.938);
+  color: white;
   font-weight: bold;
- 
+}
+
 .header-sub{
-  border: 1px solid rgb(112, 168, 233);
+  border: 1px solid black;
   padding: 30px;
-  box-shadow: 4px 6px 0px rgba(0, 0, 0, .1);
+  box-shadow: 8px 7px 4px rgba(0, 0, 0, .1);
+  background-color: rgba(0, 0, 0, 0.3);
 }
+.header-sub p{
+  font-size: 22px !important;
 }
+
 .section-office-header h1{
   margin-bottom: 10px;
   font-size: 40px;
