@@ -1,0 +1,235 @@
+/* General Styling */
+.contact-experts {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+h1 {
+  text-align: center;
+  /* color: black; */
+}
+
+/* Search Bar */
+.search-bar {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 2px solid lightblue;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+}
+
+/* Ask a Question Section */
+.ask-question {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.ask-question textarea {
+  width: 100%;
+  height: 80px;
+  padding: 10px;
+  border: 2px solid lightblue;
+  border-radius: 5px;
+  resize: none;
+}
+
+.ask-question button {
+  padding: 10px;
+  background-color: lightblue;
+  color: black;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.ask-question button:hover {
+  background-color: #0056b3;
+  color: white;
+}
+
+/* Sorting Options */
+.sort-options {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.sort-options button {
+  padding: 8px 12px;
+  border: none;
+  background: black;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.sort-options button:hover {
+  background: lightblue;
+  color: black;
+}
+
+/* Forum Questions */
+.forum {
+  margin-top: 20px;
+}
+
+.question {
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.question .user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.user-info img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.question h3 {
+  margin: 0;
+  color: black;
+}
+
+.question p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.question-meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: gray;
+}
+
+/* Upvote Button */
+.upvote {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.upvote:hover {
+  color: #0056b3;
+}
+
+/* Typing Indicator */
+.typing-indicator {
+  font-size: 14px;
+  color: gray;
+  font-style: italic;
+  margin-top: 5px;
+}
+
+/* Response Section */
+.response-section {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.response-section textarea {
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  border: 2px solid lightblue;
+  border-radius: 5px;
+  resize: none;
+}
+
+/* Post Response Button */
+.response-section button {
+  padding: 8px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.response-section button:hover {
+  background: lightblue;
+  color: black;
+}
+
+/* Replies Section */
+.replies {
+  margin-left: 20px;
+  margin-top: 10px;
+  border-left: 2px solid lightblue;
+  padding-left: 10px;
+}
+
+.reply {
+  background: #eee;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.reply .user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.reply h4 {
+  margin: 0;
+  color: black;
+}
+
+.reply-time {
+  font-size: 12px;
+  color: gray;
+}
+
+
+
+/* Normal User Reply */
+.user-reply {
+  background-color: #f0f0f0; /* Light gray */
+  border-left: 5px solid #ccc;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+/* Legal Expert Reply */
+.expert-reply {
+  background-color: #d1ecf1; /* Light blue */
+  border-left: 5px solid #007bff; /* Blue accent */
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* Reply User Name */
+.reply-user {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}

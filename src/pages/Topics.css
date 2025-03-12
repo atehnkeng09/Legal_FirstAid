@@ -122,17 +122,18 @@ body {
   width: 200px;
   margin: 20px auto;
   padding: 12px;
-  background-color: #007bff;
-  color: white;
+  background-color: #d7e7f8;
+  color: black;
   font-size: 16px;
   font-weight: bold;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+  transition: background-color 0.4s ease-in-out, transform 0.3s ease-in-out;
 }
 
 .contact-expert:hover {
-  background-color: #0056b3;
+  background-color: #94c3f5;
+  color: white;
   transform: scale(1.05);
 }

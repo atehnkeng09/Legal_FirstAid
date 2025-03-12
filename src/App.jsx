@@ -18,17 +18,18 @@ import ConsumerRights from "./categories/ConsumerRights";
 import ArrestRights from "./categories/ArrestRights";
 import WorkplaceRights from "./categories/WorkplaceRights";
 import PropertyRights from "./categories/PropertyRights";
+import Login from "./pages/Login";
 
 
 function App () {
   return (
       <>
         <Router>
-        <Header />
-
+          <Header />
         <Routes>
           <Route path="/" element={<Home />} /> 
           <Route path="/Rights" element={ <Rights /> } /> 
+          <Route path="/Login" element={ <Login /> } /> 
           <Route path="/Topics" element={ <Topics /> } /> 
           <Route path="/Experts" element={ <Experts /> } /> 
 
@@ -45,8 +46,9 @@ function App () {
 
         </Routes>
       </Router>
-      
+       
       <Footer />
+
       </>
 
       

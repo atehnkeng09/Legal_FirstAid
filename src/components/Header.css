@@ -25,12 +25,13 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  text-transform: capitalize;
 }
-@media screen and (max-width: 600px){
+/* @media screen and (max-width: 600px){
   .navbar{
     flex-direction: column;
   }
-}
+} */
 .left-header{
   display: flex;
 }
@@ -72,7 +73,7 @@ header{
   border: none;
   margin: 3px;
   border-radius: 4px;
-  background-color: #28A745;
+  background-color: lightgray;
   color: white;
   /* margin-left: 1rem;
   padding: 0.5rem 1rem;
@@ -90,7 +91,7 @@ header{
 }
 
 .navbar-auth .signup-button {
-  background-color: #FFC107; 
+  background-color: lightblue; 
   /* padding: 7px;  */
   
   
