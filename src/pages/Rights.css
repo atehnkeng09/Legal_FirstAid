@@ -33,7 +33,7 @@
 }
 
 .rights-first-content{
-  background-image: url('images/rightsz.jpg');
+  background-image: url('/images/rightsz.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

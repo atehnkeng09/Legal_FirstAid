@@ -8,7 +8,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 50vh;
-  background-image: url('public/images/pic5.jpg');
+  background-image: url('/images/pic5.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
