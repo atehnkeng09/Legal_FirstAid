@@ -19,6 +19,7 @@ import ArrestRights from "./categories/ArrestRights";
 import WorkplaceRights from "./categories/WorkplaceRights";
 import PropertyRights from "./categories/PropertyRights";
 import Login from "./pages/Login";
+import AuthSecure from "./components/AuthSecure";
 
 
 function App () {
@@ -31,7 +32,11 @@ function App () {
           <Route path="/Rights" element={ <Rights /> } /> 
           <Route path="/Login" element={ <Login /> } /> 
           <Route path="/Topics" element={ <Topics /> } /> 
-          <Route path="/Experts" element={ <Experts /> } /> 
+          <Route path="/Experts" element={ 
+            < AuthSecure >
+              <Experts />
+              </AuthSecure>
+           } /> 
 
           {/* routes for categories */}
           <Route path="/ConsumerRights" element={ <ConsumerRights />} />

@@ -1,3 +1,7 @@
+body {
+  font-family: Arial, sans-serif;
+ 
+}
 .topics-headers{
   display: flex;
   flex-direction: column;
@@ -25,13 +29,7 @@
   padding: 50px 20px; 
 }
 
-/* General Styling */
-body {
-  font-family: Arial, sans-serif;
- 
-}
 
-/* Hint Message */
 .hint {
   text-align: center;
   font-size: 14px;
@@ -56,7 +54,7 @@ body {
   border-radius: 8px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   cursor: pointer;
-  border-left: 5px solid #007bff;
+  border-left: 5px solid #1d4ed8;
   transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
@@ -69,14 +67,14 @@ body {
 .topic-title {
   font-size: 18px;
   font-weight: bold;
-  color: #007bff;
+  color: #172554;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .topic-title:hover {
-  color: #0056b3;
+  color: #1d4ed8;
 }
 
 /* Description */
@@ -105,7 +103,7 @@ body {
 .topics-steps li {
   font-size: 14px;
   padding: 5px 0;
-  border-left: 3px solid #007bff;
+  border-left: 3px solid #1d4ed8;
   padding-left: 10px;
   margin-top: 5px;
   background: #f9f9f9;
@@ -122,8 +120,8 @@ body {
   width: 200px;
   margin: 20px auto;
   padding: 12px;
-  background-color: #d7e7f8;
-  color: black;
+  background-color: #172554;
+  color: white;
   font-size: 16px;
   font-weight: bold;
   border: none;
@@ -133,7 +131,7 @@ body {
 }
 
 .contact-expert:hover {
-  background-color: #94c3f5;
+  background-color: #1d4ed8;
   color: white;
   transform: scale(1.05);
 }

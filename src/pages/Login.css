@@ -7,6 +7,12 @@
   /* background: linear-gradient(to right, #cfd1d1, #eeecec); */
 }
 
+@media screen and (max-width: 600px) {
+  .auth-container {
+    /* margin-top: 20px; */
+  }
+}
+
 /* Card styling */
 .auth-card {
   background: white;
@@ -62,4 +68,10 @@
 
 .toggle-buttons p:hover {
   text-decoration: underline;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
 }

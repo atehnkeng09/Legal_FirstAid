@@ -233,3 +233,38 @@ h1 {
   color: #333;
   margin-bottom: 5px;
 }
+
+
+.suggestion-section {
+  margin-top: 10px;
+  padding: 10px;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.suggestion-section input[type="text"] {
+  width: 70%;
+  padding: 8px;
+  margin-right: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.suggestion-section button {
+  background-color: #0077cc;
+  color: white;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.suggestion-section button:hover {
+  background-color: #005fa3;
+}
+
+.suggestions-list ul {
+  padding-left: 1.2rem;
+  margin-top: 10px;
+}
+
