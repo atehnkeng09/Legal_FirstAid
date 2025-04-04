@@ -4,7 +4,7 @@ body{
 
 }
 .home-page{
-  background-image: url('public/images/pic2.jpg');
+  background-image: url('/images/pic2.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
